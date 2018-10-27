@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment1">
+
+    <ImageView
+        android:id="@+id/ivDetailCover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zing_tenluatrieutien" />
+
+    <TextView
+        android:id="@+id/tvDetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivDetailCover"
+        android:layout_alignBottom="@+id/ivDetailCover"
+        android:paddingLeft="8dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="8dp"
+        android:text="Vũ khí hạt nhân của Triều Tiên mạnh cỡ nào?"
+        android:textColor="#eaeaea"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvDetailName"
+        android:layout_alignTop="@id/tvDetailName"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="-19dp"
+        android:layout_marginBottom="62dp"
+        android:paddingLeft="8dp"
+        android:text="Zing-14 giờ trước"
+        android:textColor="#eaeaea" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/lanh_dao_nhat_my_ung_ho_giai_phap_hoa_binh_van_de_trieu_tien" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingTop="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="Lãnh đạo Nhật,Mỹ ủng hộ giải pháp hòa bình cho vấn đề Triều Tiên"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="VietnamPlus- 36 phút trước" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_weight="2"
+                android:background="#abaaaa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/thu_nhap_chuc_trieu_van_khong_du_song" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingTop="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="Người trẻ kương nhiều mới sống được? - Kỳ 2:Công chức phải 'cày' thêm việc"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Thanh Niên- 1 giờ trước" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_weight="2"
+                android:background="#abaaaa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/thu_tuong_1_1510588945087_dqhk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingTop="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="Quốc hội dành 3 ngày liên tiếp chất vấn các thành viên Chính phủ"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Baomoi.vn- 2 giờ trước" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_weight="2"
+                android:background="#abaaaa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:src="@drawable/trung_nhat_japantimes_jtjd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+                        android:layout_gravity="fill_horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingTop="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="Quan hệ Nhật Bản và Trung Quốc đang đứng trước “bước ngoặt lịch sử”"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="VOV- 3 giờ truóc" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_weight="2"
+                android:background="#abaaaa" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
